@@ -39,7 +39,15 @@ $(function() {
   // $('#cat-talk').addClass('animated bounceInDown');
   // $('#cat-message').addClass('animated bounceInDown');
   // $('#card-back').addClass('animated bounceInRight');
-  // $('#chip-pile').addClass('animated bounceInUp');
-});
 
+
+  $('ul.menu a').click(function () {
+      $('ul.menu a').removeClass('active');
+      $(this).addClass('active');
+      $(hash).removeClass('animated pulse');
+      var hash = this.hash;
+      $(hash).addClass('animated pulse');
+   });
+
+});
 

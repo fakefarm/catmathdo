@@ -1,0 +1,113 @@
+html
+  head
+    title Let's play Cat Math Do!
+    link href="src/style.css" rel="stylesheet"
+      link href="stylesheets/animate.css" rel="stylesheet"
+      link href='http://fonts.googleapis.com/css?family=Luckiest+Guy|Sanchez' rel='stylesheet' type='text/css'
+  body
+    nav.main-nav
+      h2 Menu
+      ul.menu
+        li
+          a href="#top"  Top
+        li
+          a href="#overview"  Overview
+        li
+          a href="#buy"  Buy
+        li
+          a href="#rules"  Rules
+        li
+          a href="#demo"  Game demo
+        li
+          a href="#story"  Story
+        li
+          a href="#share"  Share
+        li
+          a href="#contact"  Contact
+    .container
+      section#top.top name="top"
+        .hero-image
+        .headline
+          #letsPlay.lets-play.animated.rubberBand Let's play
+          h1.animated.bounceInDown Cat Math Do!
+        h2 Introduce toddlers to plus & minus
+        .symbols.animated.bounceIn
+      section#overview.content.overview name="overview"
+        h2#overview Overview
+        h3 A simple, fast, and fun game!
+        .game-overview
+      section#buy.content.buy name="buy"
+        .buy-wrapper
+          h2#buy Buy
+          h3 3 ways to buy!
+          ul
+            li
+              .purchase-option
+                h3 Buy One
+                div Price: $19.95
+                p Get the awesome.
+                p Want $7 off? Mention @catmathdo on facebook or twitter and You'll get a coupon!
+                .purchase-button
+                  | buy 1
+            li
+              .purchase-option
+                h3 Buy Five
+                div Price: $69.95
+                div 30% savings
+                p Great for classrooms.
+                .purchase-button
+                  | buy 5
+            li
+              .purchase-option
+                h3 Download
+                div Price: $2.95
+                p Get the PDF to print at home.
+                p Includes a $10 coupon for game.
+                .purchase-button
+                  | buy PDF
+      section#rules.content.rules name="rules"
+        h2#rules Rules
+        h3 Watch how to play (30 seconds)
+        .rules-movie
+          iframe frameborder="0" height="480" src="http://www.youtube.com/embed/XVVDqySNUSg?rel=0" width="853"
+
+      section#demo.content.demo name="demo"
+        h2#demo Play now
+        h3 Play Cat Math Do online!
+        #cat-talk.cat-talk
+          img src="images/cat_talk.svg"
+            h2#cat-message.cat-message Let's play!
+        img#board.board src="images/board.svg"
+          #card-back.card-back
+            img src="images/card_back.svg"
+          #chip-pile.chip-pile
+            img.chip data-chip="drag" src="images/chip_orange.png" style=("top: 25px;  right: 125px")
+              img.chip data-chip="drag" src="images/chip_pea.png" style=("top: 75px;  right: 75px")
+                img.chip data-chip="drag" src="images/chip_purple.png" style=("top: 125px; right: 50px")
+                  img.chip data-chip="drag" src="images/chip_red.png" style=("top: 175px; right: 25px")
+                    img.chip data-chip="drag" src="images/chip_sky.png" style=("top: 225px; right: 0px")
+                      img.chip data-chip="drag" src="images/chip_orange.png" style=("top: 25px;  left:  25px")
+                        img.chip data-chip="drag" src="images/chip_pea.png" style=("top: 75px;  left:  75px")
+                          img.chip data-chip="drag" src="images/chip_purple.png" style=("top: 125px; left:  125px")
+                            img.chip data-chip="drag" src="images/chip_red.png" style=("top: 175px; left:  175px")
+                              img.chip data-chip="drag" src="images/chip_sky.png" style=("top: 225px; left:  225px")
+          .play-cards
+            img.card src=""
+      section#story.content.story name="story"
+
+        h2#story The Cat Math Do Story
+        p When Oscar was 4, I (Dave) started teaching Oscar the alphabet and counting to Ten. One day it occured to me that Oscar didn't know the difference between numbers and letters. So, I set out to introduce Oscar to their differences.  I told him that Math is how numbers play together.
+        p Then, I told him that the math playground has five rides;  plus, minus, times, divide, and equals. I then said that plus goes up and minus goes down.
+        p It wasn't long after that I came up with the board game you're holding. We played it for over a year before I thought I should try to see if other kids would enjoy playing as much. I hope you do! :-)
+        h2 A personal note from Dave
+        p This part is not about Cat Math Do. This part is about helping you make your dream. Cat Math Do is a personal vision and example of the new economy. We live in a day and age of amazing tools to work the way you want. What you need is desire, a dream, and dilligence.
+        p
+          | Cat Math Do is my 5th business attempt. I invented, designed, coded, and marketed it all in my free time. Email me if you need help with developing your own and I'll do what I can to share what I've learned along the way of building Cat Math Do.
+      section#share.content.share name="share"
+        h2#share Tell your friends!
+      section#contact.content.contact name="contact"
+        h2#contact Email me!
+    script src="javascripts/jquery.js"
+    script src="javascripts/jquery-ui.js"
+    script src="javascripts/underscore.js"
+    script src="javascripts/script.js"
