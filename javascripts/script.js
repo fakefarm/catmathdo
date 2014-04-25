@@ -36,17 +36,10 @@ $(function() {
       $('#cat-message').text(cards[random][1]);
 
   });
-  // $('#cat-talk').addClass('animated bounceInDown');
-  // $('#cat-message').addClass('animated bounceInDown');
-  // $('#card-back').addClass('animated bounceInRight');
-
 
   $('ul.menu a').click(function () {
       $('ul.menu a').removeClass('active');
       $(this).addClass('active');
-      // $(hash).removeClass('animated pulse');
-      // var hash = this.hash;
-      // $(hash).addClass('animated pulse');
    });
 
 });

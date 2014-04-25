@@ -4,7 +4,8 @@ body {
   background: #dad7c7;
   background: url('../images/bg.jpg');
   text-align: center;
-  min-width: 1410px; }
+  min-width: 1410px;
+  color: #1e5480; }
 
 h2 {
   color: #1e5480; }
@@ -124,62 +125,80 @@ h2 {
   width: 920px;
   margin-left: 20px; }
 
-.buy {
-  background: #ffff00; }
-
 .buy-title {
   font-size: 16em;
   margin: 0; }
 
+.sub-title {
+  font-size: 6em;
+  color: #4079BC;
+  margin: -40px 0 0 0; }
+
 .buy-wrapper {
-  background: #800000;
-  border: 1px solid red;
-  border-radius: 4px; }
+  background: white;
+  padding-bottom: 4em; }
 
 .buy-wrapper ul {
   overflow: auto; }
 
 .buy-wrapper li {
   float: left;
-  width: 33%; }
+  width: 31%;
+  margin-right: 1em; }
 
 .purchase-option {
-  border-radius: 4px;
-  border: 2px solid red;
-  background: white;
   margin: 0.5em;
-  height: 350px;
+  height: 450px;
   position: relative; }
+  .purchase-option h3 {
+    font-size: 3em;
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid #4079BC; }
+  .purchase-option .price {
+    font-size: 3em;
+    margin: 0 0 0.5em 0;
+    border-bottom: 1px solid #4079BC; }
+
+.buy-description {
+  font-family: 'Sanchez', 'serif';
+  font-size: 1.4em;
+  text-align: left;
+  padding-left: 0.2em; }
 
 .purchase-button {
   position: absolute;
   bottom: 20px;
   left: 25px;
-  background: #408000;
-  color: white;
-  font-size: 2em;
+  background: #9ede28;
+  color: #4079BC;
+  font-size: 2.6em;
   margin: 0 auto;
-  padding: 1em;
+  padding: 0.5em 1em;
   width: 60%;
   border-radius: 7px;
-  border: 2px solid #66ff66; }
+  border: 2px solid #4079BC; }
+  .purchase-button:hover {
+    background: #52942a; }
 
 .rules {
   background: #4177bd; }
 
+.rules h2 {
+  font-size: 12em;
+  margin: 0 0 -40px 0;
+  color: #FF6;
+  letter-spacing: 15px; }
+
 .rules h3 {
   color: white;
   font-size: 3em;
-  letter-spacing: -2px;
+  letter-spacing: 2px;
+  font-family: 'Sanchez', 'serif';
   padding: 0;
-  margin: 0; }
+  margin: 0 0 20px 0; }
 
 .rules-movie {
-  width: 920px;
-  height: 460px;
-  background: #aaa;
-  border: 3px solid black;
-  margin-left: 20px; }
+  width: 100%; }
 
 .demo {
   position: relative;
