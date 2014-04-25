@@ -78,11 +78,10 @@ html
           iframe frameborder="0" height='570px' src="http://www.youtube.com/embed/XVVDqySNUSg?rel=0" width="960px"
 
       section#demo.content.demo name="demo"
-        h2#demo Play now
-        h3 Play Cat Math Do online!
+        h2#demo.play-now Play now
         #cat-talk.cat-talk
           img src="images/cat_talk.svg"
-            h2#cat-message.cat-message Let's play!
+            h2#cat-message.cat-message Click the cards!
         img#board.board src="images/board.svg"
           #card-back.card-back
             img src="images/card_back.svg"
@@ -101,18 +100,32 @@ html
             img.card src=""
       section#story.content.story name="story"
 
-        h2#story The Cat Math Do Story
-        p When Oscar was 4, I (Dave) started teaching Oscar the alphabet and counting to Ten. One day it occured to me that Oscar didn't know the difference between numbers and letters. So, I set out to introduce Oscar to their differences.  I told him that Math is how numbers play together.
-        p Then, I told him that the math playground has five rides;  plus, minus, times, divide, and equals. I then said that plus goes up and minus goes down.
-        p It wasn't long after that I came up with the board game you're holding. We played it for over a year before I thought I should try to see if other kids would enjoy playing as much. I hope you do! :-)
-        h2 A personal note from Dave
-        p This part is not about Cat Math Do. This part is about helping you make your dream. Cat Math Do is a personal vision and example of the new economy. We live in a day and age of amazing tools to work the way you want. What you need is desire, a dream, and dilligence.
-        p
-          | Cat Math Do is my 5th business attempt. I invented, designed, coded, and marketed it all in my free time. Email me if you need help with developing your own and I'll do what I can to share what I've learned along the way of building Cat Math Do.
+        h2#story.story-title
+          | The story of
+          br
+          | Cat Math Do
+        .story-wrapper
+          p When Oscar was 4 years old, I started teaching him the alphabet and counting to Ten. One day it occured to me that Oscar didn't know the difference between numbers and letters. So, I set out to introduce Oscar to their differences. I told him that Math is how numbers play together.
+          p Then, I told him that the math playground has five rides;  plus, minus, times, divide, and equals. I then said that plus goes up and minus goes down.
+          p It wasn't long after that I came up with the board game you're holding. We played it for over a year before I thought I should try to see if other kids would enjoy playing as much. I hope you do! :-)
+          h2 A personal note from Dave
+          p
+            | (This part is not about Cat Math Do.)
+
+          p Cat Math Do is my 5th business attempt. I invented, designed, coded, and marketing it in my free time. This game is an example of the new economy. We live in a day and age of amazing tools to work the way you want. Email me if you need help with developing your own dream and I'll do what I can to share what I've learned along the way.
       section#share.content.share name="share"
-        h2#share Tell your friends!
+        h2#share.share-title Tell your friends!
+        .story-wrapper.share
+          p Know toddlers who need Cat Math Do?
+          p
+            | They probably don't have email yet,
+            br
+            | but I bet their mom's do!
+
       section#contact.content.contact name="contact"
-        h2 Email me!
+        h2.email-title Email Dave!
+        p.email-sub-title
+          | (I personally read every email.)
     script src="javascripts/jquery.js"
     script src="javascripts/jquery-ui.js"
     script src="javascripts/underscore.js"

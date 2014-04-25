@@ -13,6 +13,7 @@ body {
   text-align: center;
   min-width: 1410px;
   color: $navy;
+  height: 7500px;
 }
 
 h2 { color: $navy; }
@@ -26,6 +27,7 @@ h2 { color: $navy; }
   z-index: 0;
   box-shadow: 0px 0px 1px gray;
   border-radius: 4px;
+  padding-bottom: 35em;
 }
 
 .content {
@@ -135,16 +137,16 @@ h2 { color: $navy; }
 }
 
 .overview-title {
-  font-size: 8em;
+  font-size: 10em;
   margin: 0;
 }
 
 .overview h3 {
   color: #4079bc;
-  font-size: 3em;
+  font-size: 4em;
   letter-spacing: -2px;
   padding: 0;
-  margin: 0;
+  margin: 0 0 0.5em 0;
 }
 .game-overview {
   background: url('../images/game_overview.jpg');
@@ -154,8 +156,8 @@ h2 { color: $navy; }
 }
 
 .buy-title{
-  font-size: 16em;
-  margin: 0;
+  font-size: 12em;
+  margin: 0 0 0.1em 0;
 }
 
 .sub-title {
@@ -239,15 +241,25 @@ h2 { color: $navy; }
   width: 100%;
 }
 
+.play-now {
+  font-size: 10em;
+  margin: 0;
+}
+
+.click-start {
+  font-size: 6em;
+}
 .demo {
   position: relative;
-  height: 690px;
+  height: 730px;
+  padding: 50px;
+  z-index: 100;
 }
 
 .board {
   position: absolute;
   left: 20px;
-  top: 0;
+  top: 210px;
   z-index: -10;
   -moz-transform: scale(1) rotate(-3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
   -webkit-transform: scale(1) rotate(-3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
@@ -260,7 +272,7 @@ h2 { color: $navy; }
 
 .card-back {
   position: absolute;
-  top: 220px;
+  top: 375px;
   right: 20px;
   width: 300px;
   height: 180px;
@@ -272,13 +284,10 @@ h2 { color: $navy; }
 
 .chip-pile {
   position: absolute;
-  top: 230px;
+  top: 380px;
   left: 320px;
   height: 300px;
   width: 300px;
-  border-radius: 200;
-  border: 5px solid #aaa;
-  background: #eee;
 }
 
 .chip {
@@ -290,7 +299,7 @@ h2 { color: $navy; }
 .card {
   display: none;
   position: absolute;
-  top: 480px;;
+  top: 590px;;
   right: 20px;
   z-index: 20;
 }
@@ -303,8 +312,8 @@ h2 { color: $navy; }
 
 .cat-message {
   position: absolute;
-  top: 0;
-  left: 200px;
+  top: 15px;
+  left: 208px;
   font-size: 3em;
   color: #ff6666;
   -moz-transform: scale(1) rotate(-3deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
@@ -317,7 +326,7 @@ h2 { color: $navy; }
 .cat-talk {
   position: absolute;
   right: 0px;
-  top: 40px;
+  top: 210px;
   width: 700px;
 }
 
@@ -328,4 +337,45 @@ h2 { color: $navy; }
 .story {
   color: #1d5584;
   background: white;
+  height: 1000px;
+}
+
+.story-title {
+  font-size: 8em;
+  margin: 0;
+}
+
+.story-wrapper {
+  padding: 0 2em;
+  font-family: $slab-font;
+  line-height: 35px;
+  text-align: left;
+  font-size: 1.3em;
+  h2 {
+    font-size: 2em;
+    font-family: $silly-font;
+  }
+}
+
+.share-title {
+  font-size: 6em;
+  margin: 0;
+}
+
+.story-wrapper.share {
+  font-size: 2.5em;
+  text-align: center;
+  line-height: 50px;
+}
+
+.email-title {
+  font-size: 9em;
+  margin: 0;
+}
+
+.email-sub-title {
+  font-size: 3em;
+  margin: 0;
+  color: $dk-blue;
+  margin-top: -20px;
 }
