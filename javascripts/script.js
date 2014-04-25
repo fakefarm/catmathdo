@@ -44,9 +44,9 @@ $(function() {
   $('ul.menu a').click(function () {
       $('ul.menu a').removeClass('active');
       $(this).addClass('active');
-      $(hash).removeClass('animated pulse');
-      var hash = this.hash;
-      $(hash).addClass('animated pulse');
+      // $(hash).removeClass('animated pulse');
+      // var hash = this.hash;
+      // $(hash).addClass('animated pulse');
    });
 
 });

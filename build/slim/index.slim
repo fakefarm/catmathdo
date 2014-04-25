@@ -30,15 +30,18 @@ html
         .headline
           #letsPlay.lets-play.animated.rubberBand Let's play
           h1.animated.bounceInDown Cat Math Do!
-        h2 Introduce toddlers to plus & minus
+        h2
+          | A boardgame to
+          br
+          | introduce toddlers to plus & minus
         .symbols.animated.bounceIn
       section#overview.content.overview name="overview"
-        h2#overview Overview
+        h2#overview.overview-title Overview
         h3 A simple, fast, and fun game!
         .game-overview
       section#buy.content.buy name="buy"
         .buy-wrapper
-          h2#buy Buy
+          h2#buy.buy-title Buy
           h3 3 ways to buy!
           ul
             li
@@ -106,7 +109,7 @@ html
       section#share.content.share name="share"
         h2#share Tell your friends!
       section#contact.content.contact name="contact"
-        h2#contact Email me!
+        h2 Email me!
     script src="javascripts/jquery.js"
     script src="javascripts/jquery-ui.js"
     script src="javascripts/underscore.js"

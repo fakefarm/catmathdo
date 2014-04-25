@@ -3,7 +3,11 @@ body {
   font-weight: 500;
   background: #dad7c7;
   background: url('../images/bg.jpg');
-  text-align: center; }
+  text-align: center;
+  min-width: 1410px; }
+
+h2 {
+  color: #1e5480; }
 
 .container {
   width: 960px;
@@ -41,8 +45,9 @@ body {
   margin: 0.2em 0;
   text-align: left; }
 
-.main-nav li:hover {
-  background: #66ffff; }
+.main-nav a:hover {
+  background: #1e5480;
+  color: white; }
 
 .main-nav a {
   display: block;
@@ -50,8 +55,8 @@ body {
   padding: 0.2em 0.8em; }
 
 .active {
-  background: #66ffff; }
-
+  background: #1e5480;
+  color: white; }
 
 .top .lets-play {
   color: white;
@@ -65,13 +70,17 @@ body {
 
 .top h1 {
   position: relative;
-  top: 22px;
+  top: 45px;
   color: #4079bc;
   font-size: 9em;
   letter-spacing: 2px;
   padding: 0;
   margin: 0;
   text-shadow: 2px 4px 2px #1e5480; }
+
+.top h2 {
+  font-size: 2.8em;
+  letter-spacing: 2px; }
 
 .top h3 {
   color: #1e5480;
@@ -81,7 +90,8 @@ body {
 
 .headline {
   background: url('../images/bg2.jpg');
-  position: relative; }
+  position: relative;
+  height: 200px; }
 
 .hero-image {
   width: 960px;
@@ -97,6 +107,10 @@ body {
 .overview {
   background: url('../images/bg2.jpg'); }
 
+.overview-title {
+  font-size: 8em;
+  margin: 0; }
+
 .overview h3 {
   color: #4079bc;
   font-size: 3em;
@@ -106,12 +120,16 @@ body {
 
 .game-overview {
   background: url('../images/game_overview.jpg');
-  height: 300px;
+  height: 800px;
   width: 920px;
   margin-left: 20px; }
 
 .buy {
   background: #ffff00; }
+
+.buy-title {
+  font-size: 16em;
+  margin: 0; }
 
 .buy-wrapper {
   background: #800000;
