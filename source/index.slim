@@ -1,0 +1,132 @@
+html
+  head
+    title Introduce toddler's to math.
+    link href="src/style.css" rel="stylesheet"
+    link href="stylesheets/animate.css" rel="stylesheet"
+    link href='http://fonts.googleapis.com/css?family=Luckiest+Guy|Sanchez' rel='stylesheet' type='text/css'
+  body
+    nav.main-nav
+      h2 Menu
+      ul.menu
+        li
+          a href="#top"  Top
+        li
+          a href="#overview"  Overview
+        li
+          a href="#buy"  Buy
+        li
+          a href="#rules"  Rules
+        li
+          a href="#demo"  Game demo
+        li
+          a href="#story"  Story
+        li
+          a href="#share"  Share
+        li
+          a href="#contact"  Contact
+    .container
+      section#top.top name="top"
+        .hero-image
+        .headline
+          #letsPlay.lets-play.animated.rubberBand Let's play
+          h1.animated.bounceInDown Cat Math Do!
+        h2
+          | A boardgame to
+          br
+          | introduce toddlers to plus & minus
+        .symbols.animated.bounceIn
+      section#overview.content.overview name="overview"
+        h2#overview.overview-title Overview
+        h3 A simple, fast, and fun game!
+        .game-overview
+      section#buy.content.buy name="buy"
+        .buy-wrapper
+          h2#buy.buy-title Buy
+          h3.sub-title 3 ways to buy!
+          ul
+            li
+              .purchase-option
+                h3 5 pack
+                div.price $69.95
+                .buy-description
+                  p 30% savings
+                  p Great for classrooms.
+                .purchase-button buy 5
+            li
+              .purchase-option
+                h3 1 game
+                div.price $19.95
+                .buy-description
+                  p Get the awesome.
+                  p
+                    | Want $7 off?
+                    br
+                    | Mention @catmathdo on facebook or twitter and You'll get a coupon!
+                .purchase-button buy 1
+            li
+              .purchase-option
+                h3 Digital pdf
+                div.price $2.95
+                .buy-description
+                  p Get the PDF to print at home.
+                  p Includes a $10 coupon for game.
+                .purchase-button buy PDF
+      section#rules.content.rules name="rules"
+        h2#rules Rules
+        h3 Watch how to play (30 seconds)
+        .rules-movie
+          iframe frameborder="0" height='570px' src="http://www.youtube.com/embed/XVVDqySNUSg?rel=0" width="960px"
+
+      section#demo.content.demo name="demo"
+        h2#demo.play-now Play now
+        #cat-talk.cat-talk
+          img src="images/cat_talk.svg"
+            h2#cat-message.cat-message Click the cards!
+        img#board.board src="images/board.svg"
+          #card-back.card-back
+            img src="images/card_back.svg"
+          #chip-pile.chip-pile
+            img.chip data-chip="drag" src="images/chip_orange.png" style=("top: 25px;  right: 125px")
+              img.chip data-chip="drag" src="images/chip_pea.png" style=("top: 75px;  right: 75px")
+                img.chip data-chip="drag" src="images/chip_purple.png" style=("top: 125px; right: 50px")
+                  img.chip data-chip="drag" src="images/chip_red.png" style=("top: 175px; right: 25px")
+                    img.chip data-chip="drag" src="images/chip_sky.png" style=("top: 225px; right: 0px")
+                      img.chip data-chip="drag" src="images/chip_orange.png" style=("top: 25px;  left:  25px")
+                        img.chip data-chip="drag" src="images/chip_pea.png" style=("top: 75px;  left:  75px")
+                          img.chip data-chip="drag" src="images/chip_purple.png" style=("top: 125px; left:  125px")
+                            img.chip data-chip="drag" src="images/chip_red.png" style=("top: 175px; left:  175px")
+                              img.chip data-chip="drag" src="images/chip_sky.png" style=("top: 225px; left:  225px")
+          .play-cards
+            img.card src=""
+      section#story.content.story name="story"
+
+        h2#story.story-title
+          | The story of
+          br
+          | Cat Math Do
+        .story-wrapper
+          p When Oscar was 4 years old, I started teaching him the alphabet and counting to Ten. One day it occured to me that Oscar didn't know the differe
+          p Then, I told him that the math playground has five rides;  plus, minus, times, divide, and equals. I then said that plus goes up and minus goes
+          p It wasn't long after that I came up with the board game you're holding. We played it for over a year before I thought I should try to see if oth
+          h2 A personal note from Dave
+          p
+            | (This part is not about Cat Math Do.)
+
+          p Cat Math Do is my 5th business attempt. I invented, designed, coded, and marketing it in my free time. This game is an example of the new econom
+      section#share.content.share name="share"
+        h2#share.share-title Tell your friends!
+        .story-wrapper.share
+          p Know toddlers who need Cat Math Do?
+          p
+            | They probably don't have email yet,
+            br
+            | but I bet their mom's do!
+
+      section#contact.content.contact name="contact"
+        h2.email-title Email Dave!
+        p.email-sub-title
+          | (I personally read every email.)
+    script src="javascripts/jquery.js"
+    script src="javascripts/jquery-ui.js"
+    script src="javascripts/underscore.js"
+    script src="javascripts/script.js"                
